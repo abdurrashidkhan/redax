@@ -1,8 +1,7 @@
-"use client"
+
 import React, { useState } from 'react'
 
-export default function ChildOne() {
-  const [count, setCount] = useState(0);
+export default function ChildOne({count , setCount}) {
   return (
     <div className='border-2 border-purple-600 m-10 max-w-4xl mx-auto rounded-md'>
       <div className="w-10 h-10 m-5 rounded-full text-3xl grid place-content-center text-center">
